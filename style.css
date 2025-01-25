@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+}
+
+#first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 200px;
+}
+
+.name{
+    width: 300px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 60px;
+    border: none;
+    padding-left: 10px;
+}
+
+.submit{
+    width: 150px;
+    height: 50px;
+    background-color: darkgrey;
+    border-radius: 60px;
+    border: none;
+}
+
+.parent{
+    width: 450px;
+    height: 200px;
+    background-color: darkslategrey;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 550px;
+}
+
+.plus svg{
+    width: 100px;
+    height: 100px;
+}
+
+.minus svg{
+    width: 100px;
+    height: 100px;
+}
+
+.list{
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
